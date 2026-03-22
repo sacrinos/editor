@@ -1,7 +1,6 @@
 'use client'
 
 import { type LucideIcon, Pencil, Trash2 } from 'lucide-react'
-import Image from 'next/image'
 import { cn } from './../../../lib/utils'
 import useEditor, { type Mode, type Phase } from './../../../store/use-editor'
 import { ActionButton } from './action-button'
@@ -111,16 +110,14 @@ export function ControlModes() {
             variant="ghost"
           >
             {m.imageSrc ? (
-              <Image
+              <img
                 alt={m.label}
                 className={cn(
                   'h-[28px] w-[28px] object-contain transition-[opacity,filter] duration-200',
                   !isActive && 'opacity-60 grayscale',
                   isActive && 'opacity-100 grayscale-0',
                 )}
-                height={28}
                 src={m.imageSrc}
-                width={28}
               />
             ) : (
               Icon && <Icon className="h-5 w-5" />

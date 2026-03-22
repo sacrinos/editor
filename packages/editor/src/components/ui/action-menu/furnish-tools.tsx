@@ -1,6 +1,5 @@
 'use client'
 
-import NextImage from 'next/image'
 import { cn } from './../../../lib/utils'
 import useEditor, { type CatalogCategory } from './../../../store/use-editor'
 import { ActionButton } from './action-button'
@@ -87,12 +86,10 @@ export function FurnishTools() {
             size="icon"
             variant="ghost"
           >
-            <NextImage
+            <img
               alt={tool.label}
               className="size-full object-contain"
-              height={28}
               src={tool.iconSrc}
-              width={28}
             />
           </ActionButton>
         )

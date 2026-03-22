@@ -2,7 +2,6 @@
 
 import type { AssetInput } from '@pascal-app/core'
 import { resolveCdnUrl } from '@pascal-app/viewer'
-import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import {
   Tooltip,
@@ -186,20 +185,17 @@ export function ItemCatalog({ category }: { category: CatalogCategory }) {
                   onClick={() => setSelectedItem(item)}
                   type="button"
                 >
-                  <Image
+                  <img
                     alt={item.name}
-                    className="rounded-lg object-cover"
-                    fill
+                    className="absolute inset-0 h-full w-full rounded-lg object-cover"
                     src={resolveCdnUrl(item.thumbnail) || ''}
                   />
                   {attachmentIcon && (
                     <div className="absolute right-0.5 bottom-0.5 flex h-4 w-4 items-center justify-center rounded bg-black/60">
-                      <Image
+                      <img
                         alt={item.attachTo === 'ceiling' ? 'Ceiling attachment' : 'Wall attachment'}
                         className="h-4 w-4"
-                        height={16}
                         src={attachmentIcon}
-                        width={16}
                       />
                     </div>
                   )}

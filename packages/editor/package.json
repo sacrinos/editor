@@ -1,12 +1,24 @@
 {
-  "name": "@pascal-app/editor",
+  "name": "@sacrinos/editor",
   "version": "0.1.0",
-  "description": "Pascal building editor component",
+  "description": "PoDCity 3D building editor component",
   "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
-    ".": "./src/index.tsx"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
     "check-types": "tsc --noEmit"
   },
   "peerDependencies": {
@@ -14,7 +26,6 @@
     "@pascal-app/viewer": "*",
     "@react-three/drei": "^10",
     "@react-three/fiber": "^9",
-    "next": ">=15",
     "react": "^18 || ^19",
     "react-dom": "^18 || ^19",
     "three": "^0.183"
@@ -55,6 +66,21 @@
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "@types/three": "^0.183.1",
+    "tsup": "^8.0.0",
     "typescript": "5.9.3"
-  }
+  },
+  "keywords": [
+    "3d",
+    "building",
+    "editor",
+    "architecture",
+    "webgpu",
+    "three.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sacrinos/editor.git",
+    "directory": "packages/editor"
+  },
+  "license": "MIT"
 }

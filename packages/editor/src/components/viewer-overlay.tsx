@@ -12,7 +12,6 @@ import {
 import { useViewer } from '@pascal-app/viewer'
 import { ArrowLeft, Camera, ChevronRight, Diamond, Layers, Layers2, Moon, Sun } from 'lucide-react'
 import { motion } from 'motion/react'
-import Link from 'next/link'
 import { cn } from '../lib/utils'
 import { ActionButton } from './ui/action-menu/action-button'
 import { TooltipProvider } from './ui/primitives/tooltip'
@@ -138,24 +137,24 @@ export const ViewerOverlay = ({
                 <ArrowLeft className="h-4 w-4 text-muted-foreground" />
               </button>
             ) : (
-              <Link
+              <a
                 className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-white/10"
                 href="/"
               >
                 <ArrowLeft className="h-4 w-4 text-muted-foreground" />
-              </Link>
+              </a>
             )}
             <div className="min-w-0">
               <div className="truncate font-medium text-foreground text-sm">
                 {projectName || 'Untitled'}
               </div>
               {owner?.username && (
-                <Link
+                <a
                   className="text-muted-foreground text-xs transition-colors hover:text-foreground"
                   href={`/u/${owner.username}`}
                 >
                   @{owner.username}
-                </Link>
+                </a>
               )}
             </div>
           </div>
