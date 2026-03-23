@@ -75,7 +75,7 @@
     },
     "packages/editor": {
       "name": "@sacrinos/editor",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@number-flow/react": "^0.5.14",
         "@radix-ui/react-alert-dialog": "^1.1.15",
