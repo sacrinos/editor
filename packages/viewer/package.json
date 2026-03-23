@@ -1,6 +1,6 @@
 {
   "name": "@sacrinos/viewer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "3D viewer component for Pascal building editor",
   "type": "module",
   "main": "./dist/index.js",
