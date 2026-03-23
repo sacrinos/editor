@@ -6,7 +6,8 @@ export default defineConfig({
   dts: false,
   sourcemap: true,
   clean: true,
-  bundle: false,
+  // Bundle the source but treat all node_modules as external
+  external: [/^[^./]/],
   esbuildOptions(options) {
     options.jsx = 'automatic'
   },
