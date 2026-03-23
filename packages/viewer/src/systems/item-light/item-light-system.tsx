@@ -1,5 +1,5 @@
-import type { AnyNodeId, LevelNode } from '@pascal-app/core'
-import { sceneRegistry, useInteractive, useScene } from '@pascal-app/core'
+import type { AnyNodeId, LevelNode } from '@sacrinos/core'
+import { sceneRegistry, useInteractive, useScene } from '@sacrinos/core'
 import { useFrame } from '@react-three/fiber'
 import { useRef } from 'react'
 import { MathUtils, type PointLight, Vector3 } from 'three'

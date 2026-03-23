@@ -1,6 +1,6 @@
 'use client'
 
-import type { AssetInput } from '@pascal-app/core'
+import type { AssetInput } from '@sacrinos/core'
 import {
   type BuildingNode,
   type DoorNode,
@@ -9,8 +9,8 @@ import {
   type Space,
   useScene,
   type WindowNode,
-} from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+} from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { create } from 'zustand'
 
 export type Phase = 'site' | 'structure' | 'furnish'

@@ -71,11 +71,11 @@ jobs:
           bun run build
 
           if [ "${{ inputs.dry-run }}" = "true" ]; then
-            echo "🏜️ Dry run — would publish @pascal-app/core@$VERSION"
+            echo "🏜️ Dry run — would publish @sacrinos/core@$VERSION"
             npm publish --dry-run --access public
           else
             npm publish --access public
-            echo "📦 Published @pascal-app/core@$VERSION"
+            echo "📦 Published @sacrinos/core@$VERSION"
           fi
 
       - name: Bump & publish viewer
@@ -97,11 +97,11 @@ jobs:
           bun run build
 
           if [ "${{ inputs.dry-run }}" = "true" ]; then
-            echo "🏜️ Dry run — would publish @pascal-app/viewer@$VERSION"
+            echo "🏜️ Dry run — would publish @sacrinos/viewer@$VERSION"
             npm publish --dry-run --access public
           else
             npm publish --access public
-            echo "📦 Published @pascal-app/viewer@$VERSION"
+            echo "📦 Published @sacrinos/viewer@$VERSION"
           fi
 
       - name: Bump & publish editor
@@ -138,12 +138,12 @@ jobs:
           TAGS=""
 
           if [ -n "$CORE_VERSION" ]; then
-            PKGS="$PKGS @pascal-app/core@$CORE_VERSION"
-            TAGS="$TAGS @pascal-app/core@$CORE_VERSION"
+            PKGS="$PKGS @sacrinos/core@$CORE_VERSION"
+            TAGS="$TAGS @sacrinos/core@$CORE_VERSION"
           fi
           if [ -n "$VIEWER_VERSION" ]; then
-            PKGS="$PKGS @pascal-app/viewer@$VIEWER_VERSION"
-            TAGS="$TAGS @pascal-app/viewer@$VIEWER_VERSION"
+            PKGS="$PKGS @sacrinos/viewer@$VIEWER_VERSION"
+            TAGS="$TAGS @sacrinos/viewer@$VIEWER_VERSION"
           fi
           if [ -n "$EDITOR_VERSION" ]; then
             PKGS="$PKGS @sacrinos/editor@$EDITOR_VERSION"

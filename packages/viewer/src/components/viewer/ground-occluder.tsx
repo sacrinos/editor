@@ -1,4 +1,4 @@
-import { useScene } from '@pascal-app/core'
+import { useScene } from '@sacrinos/core'
 import polygonClipping from 'polygon-clipping'
 import { useMemo } from 'react'
 import * as THREE from 'three'

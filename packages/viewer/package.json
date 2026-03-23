@@ -1,5 +1,5 @@
 {
-  "name": "@pascal-app/viewer",
+  "name": "@sacrinos/viewer",
   "version": "0.2.0",
   "description": "3D viewer component for Pascal building editor",
   "type": "module",
@@ -22,7 +22,7 @@
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
-    "@pascal-app/core": "^0.1.4",
+    "@sacrinos/core": "^0.2.0",
     "@react-three/drei": "^10",
     "@react-three/fiber": "^9",
     "react": "^18 || ^19",
@@ -50,10 +50,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pascalorg/editor.git",
+    "url": "https://github.com/sacrinos/editor.git",
     "directory": "packages/viewer"
   },
   "license": "MIT",
-  "homepage": "https://github.com/pascalorg/editor/tree/main/packages/viewer#readme",
-  "bugs": "https://github.com/pascalorg/editor/issues"
+  "homepage": "https://github.com/sacrinos/editor/tree/main/packages/viewer#readme",
+  "bugs": "https://github.com/sacrinos/editor/issues"
 }

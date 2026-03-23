@@ -1,6 +1,6 @@
 'use client'
 
-import { Editor } from '@pascal-app/editor'
+import { Editor } from '@sacrinos/editor'
 
 export default function Home() {
   return (

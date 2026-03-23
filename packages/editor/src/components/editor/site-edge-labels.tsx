@@ -1,7 +1,7 @@
 'use client'
 
-import type { SiteNode } from '@pascal-app/core'
-import { sceneRegistry, useScene } from '@pascal-app/core'
+import type { SiteNode } from '@sacrinos/core'
+import { sceneRegistry, useScene } from '@sacrinos/core'
 import { Html } from '@react-three/drei'
 import { createPortal, useFrame } from '@react-three/fiber'
 import { useMemo, useRef, useState } from 'react'

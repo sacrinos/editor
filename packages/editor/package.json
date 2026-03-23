@@ -20,8 +20,8 @@
     "check-types": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@pascal-app/core": "*",
-    "@pascal-app/viewer": "*",
+    "@sacrinos/core": "*",
+    "@sacrinos/viewer": "*",
     "@react-three/drei": "^10",
     "@react-three/fiber": "^9",
     "react": "^18 || ^19",
@@ -57,8 +57,8 @@
     "zustand": "^5.0.11"
   },
   "devDependencies": {
-    "@pascal-app/core": "^0.2.0",
-    "@pascal-app/viewer": "^0.2.0",
+    "@sacrinos/core": "^0.2.0",
+    "@sacrinos/viewer": "^0.2.0",
     "@pascal/typescript-config": "*",
     "@types/howler": "^2.2.12",
     "@types/react": "19.2.2",

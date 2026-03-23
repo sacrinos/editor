@@ -1,4 +1,4 @@
-import { loadAssetUrl } from '@pascal-app/core'
+import { loadAssetUrl } from '@sacrinos/core'
 import { useEffect, useState } from 'react'
 
 /**

@@ -1,7 +1,7 @@
 'use client'
 
-import type { AssetInput } from '@pascal-app/core'
-import { resolveCdnUrl } from '@pascal-app/viewer'
+import type { AssetInput } from '@sacrinos/core'
+import { resolveCdnUrl } from '@sacrinos/viewer'
 import { useEffect, useState } from 'react'
 import {
   Tooltip,

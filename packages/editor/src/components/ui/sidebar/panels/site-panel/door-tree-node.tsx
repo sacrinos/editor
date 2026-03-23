@@ -1,7 +1,7 @@
 'use client'
 
-import type { DoorNode } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import type { DoorNode } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { useState } from 'react'
 import useEditor from './../../../../../store/use-editor'
 import { InlineRenameInput } from './inline-rename-input'

@@ -1,8 +1,8 @@
 'use client'
 
-import type { AnyNodeId } from '@pascal-app/core'
-import { emitter, LevelNode, useScene } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import type { AnyNodeId } from '@sacrinos/core'
+import { emitter, LevelNode, useScene } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { Command } from 'cmdk'
 import {
   AppWindow,

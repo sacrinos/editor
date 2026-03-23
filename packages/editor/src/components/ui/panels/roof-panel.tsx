@@ -1,7 +1,7 @@
 'use client'
 
-import { type AnyNode, type RoofNode, useScene } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import { type AnyNode, type RoofNode, useScene } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { useCallback } from 'react'
 import { ActionButton } from '../controls/action-button'
 import { MetricControl } from '../controls/metric-control'

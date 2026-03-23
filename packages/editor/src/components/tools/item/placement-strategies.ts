@@ -8,8 +8,8 @@ import type {
   ItemNode,
   WallEvent,
   WallNode,
-} from '@pascal-app/core'
-import { getScaledDimensions, sceneRegistry, useScene } from '@pascal-app/core'
+} from '@sacrinos/core'
+import { getScaledDimensions, sceneRegistry, useScene } from '@sacrinos/core'
 import { Vector3 } from 'three'
 import {
   calculateCursorRotation,

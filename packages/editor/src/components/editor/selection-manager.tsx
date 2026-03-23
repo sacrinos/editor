@@ -7,9 +7,9 @@ import {
   resolveLevelId,
   sceneRegistry,
   useScene,
-} from '@pascal-app/core'
+} from '@sacrinos/core'
 
-import { useViewer } from '@pascal-app/viewer'
+import { useViewer } from '@sacrinos/viewer'
 import { useEffect, useRef } from 'react'
 import useEditor from './../../store/use-editor'
 

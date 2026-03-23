@@ -1,7 +1,7 @@
 'use client'
 
-import { type AnyNode, type AnyNodeId, useScene, type WallNode } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import { type AnyNode, type AnyNodeId, useScene, type WallNode } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { useCallback } from 'react'
 import { PanelSection } from '../controls/panel-section'
 import { SliderControl } from '../controls/slider-control'

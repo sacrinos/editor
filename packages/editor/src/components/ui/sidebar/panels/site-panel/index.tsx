@@ -9,8 +9,8 @@ import {
   type SiteNode,
   useScene,
   type ZoneNode,
-} from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+} from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import {
   Box,
   Building2,

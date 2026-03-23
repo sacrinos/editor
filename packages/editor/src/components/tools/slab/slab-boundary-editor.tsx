@@ -1,5 +1,5 @@
-import { resolveLevelId, type SlabNode, useScene } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import { resolveLevelId, type SlabNode, useScene } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { useCallback } from 'react'
 import { PolygonEditor } from '../shared/polygon-editor'
 

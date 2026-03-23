@@ -1,5 +1,5 @@
-import { type AnyNodeId, useScene, type WallNode } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import { type AnyNodeId, useScene, type WallNode } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { useEffect, useState } from 'react'
 import useEditor from './../../../../../store/use-editor'
 import { InlineRenameInput } from './inline-rename-input'

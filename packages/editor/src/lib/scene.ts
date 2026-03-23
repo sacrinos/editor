@@ -1,7 +1,7 @@
 'use client'
 
-import { useScene } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import { useScene } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import useEditor from '../store/use-editor'
 
 export type SceneGraph = {

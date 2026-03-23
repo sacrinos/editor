@@ -1,5 +1,5 @@
-import { type AnyNodeId, type CeilingNode, type SlabNode, useScene } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import { type AnyNodeId, type CeilingNode, type SlabNode, useScene } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import useEditor, { type Phase, type Tool } from '../../store/use-editor'
 import { CeilingBoundaryEditor } from './ceiling/ceiling-boundary-editor'
 import { CeilingHoleEditor } from './ceiling/ceiling-hole-editor'

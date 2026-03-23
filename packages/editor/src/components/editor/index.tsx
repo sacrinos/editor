@@ -1,7 +1,7 @@
 'use client'
 
-import { initSpaceDetectionSync, initSpatialGridSync, useScene } from '@pascal-app/core'
-import { InteractiveSystem, useViewer, Viewer } from '@pascal-app/viewer'
+import { initSpaceDetectionSync, initSpatialGridSync, useScene } from '@sacrinos/core'
+import { InteractiveSystem, useViewer, Viewer } from '@sacrinos/viewer'
 import { type ReactNode, useEffect, useState } from 'react'
 import { ViewerOverlay } from '../../components/viewer-overlay'
 import { ViewerZoneSystem } from '../../components/viewer-zone-system'

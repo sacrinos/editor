@@ -1,5 +1,5 @@
-import { type BuildingNode, LevelNode, useScene } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import { type BuildingNode, LevelNode, useScene } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { Building2, Plus } from 'lucide-react'
 import { useState } from 'react'
 import {

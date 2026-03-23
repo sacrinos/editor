@@ -8,8 +8,8 @@ import {
   sceneRegistry,
   useScene,
   WindowNode,
-} from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+} from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { Html } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 import { Copy, Move, Trash2 } from 'lucide-react'

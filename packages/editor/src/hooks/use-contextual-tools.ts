@@ -1,5 +1,5 @@
-import { type AnyNodeId, useScene } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import { type AnyNodeId, useScene } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { useMemo } from 'react'
 import useEditor, { type StructureTool } from '../store/use-editor'
 

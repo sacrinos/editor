@@ -1,7 +1,7 @@
 'use client'
 
-import { type CameraControlEvent, emitter, sceneRegistry, useScene } from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+import { type CameraControlEvent, emitter, sceneRegistry, useScene } from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { CameraControls, CameraControlsImpl } from '@react-three/drei'
 import { useThree } from '@react-three/fiber'
 import { useCallback, useEffect, useMemo, useRef } from 'react'

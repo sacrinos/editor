@@ -8,8 +8,8 @@ import {
   type LevelNode,
   useScene,
   type ZoneNode,
-} from '@pascal-app/core'
-import { useViewer } from '@pascal-app/viewer'
+} from '@sacrinos/core'
+import { useViewer } from '@sacrinos/viewer'
 import { ArrowLeft, Camera, ChevronRight, Diamond, Layers, Layers2, Moon, Sun } from 'lucide-react'
 import { motion } from 'motion/react'
 import { cn } from '../lib/utils'
