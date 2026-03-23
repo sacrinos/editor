@@ -80,5 +80,8 @@
     "url": "https://github.com/sacrinos/editor.git",
     "directory": "packages/editor"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "restricted"
+  }
 }

@@ -124,9 +124,9 @@ jobs:
 
           if [ "${{ inputs.dry-run }}" = "true" ]; then
             echo "🏜️ Dry run — would publish @sacrinos/editor@$VERSION"
-            npm publish --dry-run --access public
+            npm publish --dry-run --access restricted
           else
-            npm publish --access public
+            npm publish --access restricted
             echo "📦 Published @sacrinos/editor@$VERSION"
           fi
 
