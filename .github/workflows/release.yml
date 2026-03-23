@@ -120,7 +120,6 @@ jobs:
           jq --arg v "$VERSION" '.version = $v' package.json > tmp.json && mv tmp.json package.json
           echo "EDITOR_VERSION=$VERSION" >> $GITHUB_ENV
 
-          bun add -d tsup
           bun run build
 
           if [ "${{ inputs.dry-run }}" = "true" ]; then
