@@ -59,8 +59,8 @@
     "zustand": "^5.0.11"
   },
   "devDependencies": {
-    "@pascal-app/core": "*",
-    "@pascal-app/viewer": "*",
+    "@pascal-app/core": "^0.2.0",
+    "@pascal-app/viewer": "^0.2.0",
     "@pascal/typescript-config": "*",
     "@types/howler": "^2.2.12",
     "@types/react": "19.2.2",
