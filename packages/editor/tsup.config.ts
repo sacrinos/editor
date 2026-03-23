@@ -6,16 +6,7 @@ export default defineConfig({
   dts: true,
   sourcemap: true,
   clean: true,
-  external: [
-    'react',
-    'react-dom',
-    '@pascal-app/core',
-    '@pascal-app/viewer',
-    '@react-three/fiber',
-    '@react-three/drei',
-    'three',
-    'next',
-  ],
+  bundle: false,
   esbuildOptions(options) {
     options.jsx = 'automatic'
   },
