@@ -2,7 +2,6 @@
 
 import type { DoorNode } from '@pascal-app/core'
 import { useViewer } from '@pascal-app/viewer'
-import Image from 'next/image'
 import { useState } from 'react'
 import useEditor from './../../../../../store/use-editor'
 import { InlineRenameInput } from './inline-rename-input'
@@ -32,7 +31,7 @@ export function DoorTreeNode({ node, depth, isLast }: DoorTreeNodeProps) {
       expanded={false}
       hasChildren={false}
       icon={
-        <Image alt="" className="object-contain" height={14} src="/icons/door.png" width={14} />
+        <img alt="" className="object-contain"  src="/icons/door.png"  />
       }
       isHovered={isHovered}
       isLast={isLast}

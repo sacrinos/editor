@@ -1,6 +1,5 @@
 import type { RoofNode } from '@pascal-app/core'
 import { useViewer } from '@pascal-app/viewer'
-import Image from 'next/image'
 import { useState } from 'react'
 import useEditor from './../../../../../store/use-editor'
 import { InlineRenameInput } from './inline-rename-input'
@@ -53,7 +52,7 @@ export function RoofTreeNode({ node, depth, isLast }: RoofTreeNodeProps) {
       expanded={false}
       hasChildren={false}
       icon={
-        <Image alt="" className="object-contain" height={14} src="/icons/roof.png" width={14} />
+        <img alt="" className="object-contain"  src="/icons/roof.png"  />
       }
       isHovered={isHovered}
       isLast={isLast}

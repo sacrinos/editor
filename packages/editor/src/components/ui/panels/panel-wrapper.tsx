@@ -1,7 +1,6 @@
 'use client'
 
 import { Moon, RotateCcw, X } from 'lucide-react'
-import Image from 'next/image'
 import { cn } from '../../../lib/utils'
 
 interface PanelWrapperProps {
@@ -35,7 +34,7 @@ export function PanelWrapper({
       <div className="flex items-center justify-between border-border/50 border-b px-3 py-3">
         <div className="flex items-center gap-2">
           {icon && (
-            <Image alt="" className="shrink-0 object-contain" height={16} src={icon} width={16} />
+            <img alt="" className="shrink-0 object-contain"  src={icon}  />
           )}
           <h2 className="truncate font-semibold text-foreground text-sm tracking-tight">{title}</h2>
         </div>

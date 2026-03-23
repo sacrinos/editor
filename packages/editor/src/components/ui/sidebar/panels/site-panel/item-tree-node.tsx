@@ -1,6 +1,5 @@
 import { type AnyNodeId, type ItemNode, useScene } from '@pascal-app/core'
 import { useViewer } from '@pascal-app/viewer'
-import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import useEditor from './../../../../../store/use-editor'
 import { InlineRenameInput } from './inline-rename-input'
@@ -82,7 +81,7 @@ export function ItemTreeNode({ node, depth, isLast }: ItemTreeNodeProps) {
       depth={depth}
       expanded={expanded}
       hasChildren={hasChildren}
-      icon={<Image alt="" className="object-contain" height={14} src={iconSrc} width={14} />}
+      icon={<img alt="" className="object-contain"  src={iconSrc}  />}
       isHovered={isHovered}
       isLast={isLast}
       isSelected={isSelected}
